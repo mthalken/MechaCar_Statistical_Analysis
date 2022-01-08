@@ -13,7 +13,7 @@
 ## Resources
 - Source of data: [MechaCar_mpg.csv](https://github.com/mthalken/MechaCar_Statistical_Analysis/blob/main/data/MechaCar_mpg.csv), [Suspension_Coil.csv](https://github.com/mthalken/MechaCar_Statistical_Analysis/blob/main/data/Suspension_Coil.csv)
 - Software: Python 3.7.10, Conda 4.10.3, Jupyter Notebook 6.3.0, Visual Studio Code 1.60.2
-- Please see the refactored code [here]().
+- Please see the refactored code [here](https://github.com/mthalken/MechaCar_Statistical_Analysis/blob/main/MechaCarChallenge.R).
 
 ## The analysis
 ### Linear Regression to Predict MPG
@@ -26,11 +26,20 @@
 
 ![png](https://github.com/mthalken/MechaCar_Statistical_Analysis/blob/main/images/Linear%20Regression%20to%20Predict%20MPG.png)
 
-###
+### Summary Stiatistics on Suspension Coils
 
+- In the total summary statistics we can see that the variance is definitely under the 100 pounds per square inch, but there is an issue with one of the lots as seen in the lot summary statistics. Lot 3 has a variance of 170.2861224 which is well over the accepted threshold. 
 
 ![png](https://github.com/mthalken/MechaCar_Statistical_Analysis/blob/main/images/Total%20Summary.png)
+
 ![png](https://github.com/mthalken/MechaCar_Statistical_Analysis/blob/main/images/Lot%20Summary.png)
+
+
+### T-Tests on Suspension Coils
+
+- Looking at the T-Test results we can see that all lots, lot 1, and lot 2 show that they are not significantly different from the mean and the p-values are not low enough to reject the null hypothesis. While lot 3 shows that they are slightly different from the mean the p-value is low enough to reject the null hypothesis. With that being said we could see that we may have to discard or remove lot 3 or be looked at closer. 
+
+![png](link)
 
 
 - What are two conclusions you can draw?
