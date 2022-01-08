@@ -11,10 +11,9 @@
 6. 
 
 ## Resources
-- Source of data: [here](link), [here](link)
+- Source of data: [MechaCar_mpg.csv](https://github.com/mthalken/MechaCar_Statistical_Analysis/blob/main/data/MechaCar_mpg.csv), [Suspension_Coil.csv](https://github.com/mthalken/MechaCar_Statistical_Analysis/blob/main/data/Suspension_Coil.csv)
 - Software: Python 3.7.10, Conda 4.10.3, Jupyter Notebook 6.3.0, Visual Studio Code 1.60.2
 - Please see the refactored code [here]().
-- You can also see the preliminary code [here]().
 
 ## The analysis
 ### Linear Regression to Predict MPG
@@ -25,13 +24,13 @@
 
 - The linear model does predect mpg protoypes effectively (shown in the R-Squared value of 0.7149) at 71% accuracy. 
 
-![png](link)
+![png](https://github.com/mthalken/MechaCar_Statistical_Analysis/blob/main/images/Linear%20Regression%20to%20Predict%20MPG.png)
 
 ###
 
 
-
-
+![png](https://github.com/mthalken/MechaCar_Statistical_Analysis/blob/main/images/Total%20Summary.png)
+![png](https://github.com/mthalken/MechaCar_Statistical_Analysis/blob/main/images/Lot%20Summary.png)
 
 
 - What are two conclusions you can draw?
