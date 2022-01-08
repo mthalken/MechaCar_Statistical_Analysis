@@ -1,18 +1,16 @@
 # MechaCar_Statistical_Analysis
 
-## The purpose of this analysis
+## The purpose of this analysis is to analize data to help produce insights for MechaCar's production team. 
 
 ## Project Overview:
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
+1. Use linear regression to predict mpg
+2. Find the summary statistics on suspension coils
+3. Determine the t-tests on suspension coils
+4. Design a study to compare MechaCar to the competition
 
 ## Resources
 - Source of data: [MechaCar_mpg.csv](https://github.com/mthalken/MechaCar_Statistical_Analysis/blob/main/data/MechaCar_mpg.csv), [Suspension_Coil.csv](https://github.com/mthalken/MechaCar_Statistical_Analysis/blob/main/data/Suspension_Coil.csv)
-- Software: Python 3.7.10, Conda 4.10.3, Jupyter Notebook 6.3.0, Visual Studio Code 1.60.2
+- Software: R 4.1.2, RStudio, Python 3.7.10, Conda 4.10.3, Visual Studio Code 1.60.2
 - Please see the refactored code [here](https://github.com/mthalken/MechaCar_Statistical_Analysis/blob/main/MechaCarChallenge.R).
 
 ## The analysis
@@ -39,21 +37,20 @@
 
 - Looking at the T-Test results we can see that all lots, lot 1, and lot 2 show that they are not significantly different from the mean and the p-values are not low enough to reject the null hypothesis. While lot 3 shows that they are slightly different from the mean the p-value is low enough to reject the null hypothesis. With that being said we could see that we may have to discard or remove lot 3 or be looked at closer. 
 
-![png](link)
+![png](https://github.com/mthalken/MechaCar_Statistical_Analysis/blob/main/images/TTests.png)
 
 
-- What are two conclusions you can draw?
+### Study Design: MechaCar vs Competition
 
-- What can you conclude?
+- While there can be multiple factors and variables that individuals look at when purchasing a car, looking at hauling/carrying capacity on mpg compared to competitors vehicles. 
 
-- What are some limitations of this dataset?
+    - Metrics
+        - We would need to look at the total interal or cabin space, trunk or bed space, hauling capacity, and miles per gallon on 3 different weight levels; light, medium, heavy. 
+    - Hypothesis
+        - Null: MechaCar's vehicles get the same mpg in light, medium, and heavy weights based on overall towing capacity. 
+        - Alternate: MechaCar's vehicles get the statistically better mpg in light, medium, and heavy weights based on overall towing capacity.
+    - Statistical Test
+        - The best statistical test would be to use the ANOVA (Analysis of Variance). 
+    - Data
+        - To perform this study we would need information on MechaCar's and competitors towing/hauling capacity and total interal or bed space. We already have data on MechaCar's vehicle weight and mpg but would need to get the competitors as well as run tests on mpg based on weight capacitites. 
 
-- What are some other possible tables and/or graphs that we could create?
-## Results 
-## Summary
-
-
-
-
-image link: ![png](link)
-clink link: [here](link)
